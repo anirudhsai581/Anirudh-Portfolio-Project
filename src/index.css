@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --transition-timing-jump: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* globals.css (or index.css) */
+.type-cursor {
+  color: #f59e0b; /* amber tone */
+  animation: blink 1s step-end infinite;
+  vertical-align: baseline; /* keep aligned with text */
+  margin-left: 4px; /* small gap after typed text */
+  font-weight: 600; /* match emphasis if needed */
+  /* font-size will inherit from the parent so cursor matches height */
+}
+
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
