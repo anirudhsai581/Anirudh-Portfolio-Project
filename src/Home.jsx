@@ -21,7 +21,7 @@ const Home = () => {
 
       <Middle onShowAbout={() => setShowAbout(true)} />
       {showAbout && <AboutModal onClose={() => setShowAbout(false)} />}
-      <div className="self-center relative after:content-[''] after:absolute after:w-0.5 after:h-5 after:bg-[#444] after:left-1/2 after:-translate-x-1/2 after:top-[80px]">
+      <div className="self-center relative after:content-[''] after:absolute after:w-0.5 after:h-5 after:bg-[#444] after:left-1/2 after:-translate-x-1/2 after:top-20">
         <GlassButton
           onClick={handleScrollToNext}
           className=" mb-16 "
