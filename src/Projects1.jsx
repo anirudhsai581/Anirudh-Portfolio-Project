@@ -1,5 +1,5 @@
 import React from "react";
-import jobPortalImg from "./assets/images/jobportal.webp";
+import jobPortalImg from "./assets/images/jobPortal.webp";
 import PortfolioImg from "./assets/images/portfolioProject.webp";
 import AIResumeStudioImg from "./assets/images/aiResumeStudio.webp";
 
