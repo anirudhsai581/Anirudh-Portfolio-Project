@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Canvas from "./components/Canvas";
 import GlassButton from "./components/GlassButton";
-import Header from "./header";
+import Header from "./Header";
 import Middle from "./Middle";
 import AboutModal from "./components/AboutModal";
 
